@@ -1,0 +1,257 @@
+{"log":"2019/09/26 20:28:46 [INFO] Created default configuration file at /etc/hyperledger/fabric-ca-server/fabric-ca-server-config.yaml\n","stream":"stderr","time":"2019-09-26T20:28:46.730398815Z"}
+{"log":"2019/09/26 20:28:46 [INFO] Starting server in home directory: /etc/hyperledger/fabric-ca-server\n","stream":"stderr","time":"2019-09-26T20:28:46.738214209Z"}
+{"log":"2019/09/26 20:28:46 [INFO] Server Version: 1.2.0-stable\n","stream":"stderr","time":"2019-09-26T20:28:46.738230128Z"}
+{"log":"2019/09/26 20:28:46 [INFO] Server Levels: \u0026{Identity:1 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}\n","stream":"stderr","time":"2019-09-26T20:28:46.738233324Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Making server filenames absolute\n","stream":"stderr","time":"2019-09-26T20:28:46.738235899Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing default CA in directory /etc/hyperledger/fabric-ca-server\n","stream":"stderr","time":"2019-09-26T20:28:46.738238183Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Init CA with home /etc/hyperledger/fabric-ca-server and config {Version:1.2.0-stable Cfg:{Identities:{AllowRemove:false} Affiliations:{AllowRemove:false}} CA:{Name:ca-org3 Keyfile:/etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk Certfile:/etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem Chainfile:ca-chain.pem} Signing:0xc4202e63a0 CSR:{CN:fabric-ca-server Names:[{C:US ST:North Carolina L: O:Hyperledger OU:Fabric SerialNumber:}] Hosts:[8056c3e6a24f localhost] KeyRequest:\u003cnil\u003e CA:0xc420267a60 SerialNumber:} Registry:{MaxEnrollments:-1 Identities:[{ Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:0 Attrs:map[hf.Revoker:1 hf.IntermediateCA:1 hf.GenCRL:1 hf.Registrar.Attributes:* hf.AffiliationMgr:1 hf.Registrar.Roles:* hf.Registrar.DelegateRoles:*]  }]} Affiliations:map[org2:[department1] org1:[department1 department2]] LDAP:{ Enabled:false URL:ldap://****:****@\u003chost\u003e:\u003cport\u003e/\u003cbase\u003e UserFilter:(uid=%s) GroupFilter:(memberUid=%s) Attribute:{[uid member] [{ }] map[groups:[{ }]]} TLS:{false [] { }}  } DB:{ Type:sqlite3 Datasource:fabric-ca-server.db TLS:{false [] { }}  } CSP:0xc4202d8990 Client:\u003cnil\u003e Intermediate:{ParentServer:{ URL: CAName:  } TLS:{Enabled:false CertFiles:[] Client:{KeyFile: CertFile:}} Enrollment:{ Name: Secret:**** CAName: AttrReqs:[] Profile: Label: CSR:\u003cnil\u003e Type:x509  }} CRL:{Expiry:24h0m0s} Idemix:{IssuerPublicKeyfile: IssuerSecretKeyfile: RevocationPublicKeyfile: RevocationPrivateKeyfile: RHPoolSize:0 NonceExpiration: NonceSweepInterval:}}\n","stream":"stderr","time":"2019-09-26T20:28:46.73826284Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] CA Home Directory: /etc/hyperledger/fabric-ca-server\n","stream":"stderr","time":"2019-09-26T20:28:46.738272297Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Checking configuration file version '1.2.0-stable' against server version: '1.2.0-stable'\n","stream":"stderr","time":"2019-09-26T20:28:46.738274642Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing BCCSP: \u0026{ProviderName:SW SwOpts:0xc4202d89f0 PluginOpts:\u003cnil\u003e Pkcs11Opts:\u003cnil\u003e}\n","stream":"stderr","time":"2019-09-26T20:28:46.738349071Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing BCCSP with software options \u0026{SecLevel:256 HashFamily:SHA2 Ephemeral:false FileKeystore:0xc4202f33a0 DummyKeystore:\u003cnil\u003e}\n","stream":"stderr","time":"2019-09-26T20:28:46.738357357Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initialize key material\n","stream":"stderr","time":"2019-09-26T20:28:46.738574254Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Making CA filenames absolute\n","stream":"stderr","time":"2019-09-26T20:28:46.738579724Z"}
+{"log":"2019/09/26 20:28:46 [INFO] The CA key and certificate files already exist\n","stream":"stderr","time":"2019-09-26T20:28:46.738595293Z"}
+{"log":"2019/09/26 20:28:46 [INFO] Key file location: /etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk\n","stream":"stderr","time":"2019-09-26T20:28:46.738598058Z"}
+{"log":"2019/09/26 20:28:46 [INFO] Certificate file location: /etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem\n","stream":"stderr","time":"2019-09-26T20:28:46.738606785Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Validating the CA certificate and key\n","stream":"stderr","time":"2019-09-26T20:28:46.738609199Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check CA certificate for valid dates\n","stream":"stderr","time":"2019-09-26T20:28:46.738760974Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check CA certificate for valid usages\n","stream":"stderr","time":"2019-09-26T20:28:46.738765843Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check CA certificate for valid IsCA value\n","stream":"stderr","time":"2019-09-26T20:28:46.738767837Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check that key type is supported\n","stream":"stderr","time":"2019-09-26T20:28:46.738769811Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check that key size is of appropriate length\n","stream":"stderr","time":"2019-09-26T20:28:46.738771754Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Check that public key and private key match\n","stream":"stderr","time":"2019-09-26T20:28:46.738773758Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Validation of CA certificate and key successful\n","stream":"stderr","time":"2019-09-26T20:28:46.751529088Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Loading CN from existing enrollment information\n","stream":"stderr","time":"2019-09-26T20:28:46.751547362Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing DB\n","stream":"stderr","time":"2019-09-26T20:28:46.751734688Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing 'sqlite3' database at '/etc/hyperledger/fabric-ca-server/fabric-ca-server.db'\n","stream":"stderr","time":"2019-09-26T20:28:46.751745157Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Using sqlite database, connect to database in home (/etc/hyperledger/fabric-ca-server/fabric-ca-server.db) directory\n","stream":"stderr","time":"2019-09-26T20:28:46.751747953Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating SQLite database (/etc/hyperledger/fabric-ca-server/fabric-ca-server.db) if it does not exist...\n","stream":"stderr","time":"2019-09-26T20:28:46.751750558Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating users table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.751986085Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating affiliations table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.752423857Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating certificates table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.752504668Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating credentials table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.752562416Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating revocation_authority_info table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.752706757Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating nonces table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.752766419Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating properties table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.767382043Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Successfully opened sqlite3 DB\n","stream":"stderr","time":"2019-09-26T20:28:46.800759262Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Checking database schema...\n","stream":"stderr","time":"2019-09-26T20:28:46.800778959Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Update SQLite schema, if using outdated schema\n","stream":"stderr","time":"2019-09-26T20:28:46.800781503Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Upgrade identities table\n","stream":"stderr","time":"2019-09-26T20:28:46.801370073Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating users table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.801610829Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Upgrade affiliation table\n","stream":"stderr","time":"2019-09-26T20:28:46.831234384Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating affiliations table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.831432931Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Upgrade certificates table\n","stream":"stderr","time":"2019-09-26T20:28:46.863000793Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Creating certificates table if it does not exist\n","stream":"stderr","time":"2019-09-26T20:28:46.863454854Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initializing identity registry\n","stream":"stderr","time":"2019-09-26T20:28:46.884825238Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Initialized DB identity registry\n","stream":"stderr","time":"2019-09-26T20:28:46.884845416Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] DB: Get properties [identity.level affiliation.level certificate.level]\n","stream":"stderr","time":"2019-09-26T20:28:46.884848211Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Checking database levels 'map[certificate.level:0 identity.level:0 affiliation.level:0]' against server levels '\u0026{Identity:1 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}'\n","stream":"stderr","time":"2019-09-26T20:28:46.885075728Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Loading identity table\n","stream":"stderr","time":"2019-09-26T20:28:46.885084815Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Loading identity 'admin'\n","stream":"stderr","time":"2019-09-26T20:28:46.885088391Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:28:46.885091076Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Max enrollment value verification - User specified max enrollment: 0, CA max enrollment: -1\n","stream":"stderr","time":"2019-09-26T20:28:46.885202555Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] DB: Add identity admin\n","stream":"stderr","time":"2019-09-26T20:28:46.885212113Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Successfully added identity admin to the database\n","stream":"stderr","time":"2019-09-26T20:28:46.959958142Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Registered identity: { Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:-1 Attrs:map[hf.Registrar.Attributes:* hf.AffiliationMgr:1 hf.Registrar.Roles:* hf.Registrar.DelegateRoles:* hf.Revoker:1 hf.IntermediateCA:1 hf.GenCRL:1]  }\n","stream":"stderr","time":"2019-09-26T20:28:46.959975945Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Successfully loaded identity table\n","stream":"stderr","time":"2019-09-26T20:28:46.959979241Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Loading affiliations table\n","stream":"stderr","time":"2019-09-26T20:28:46.959981706Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] DB: Add affiliation org2\n","stream":"stderr","time":"2019-09-26T20:28:46.959984121Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] Affiliation 'org2' added\n","stream":"stderr","time":"2019-09-26T20:28:46.978017716Z"}
+{"log":"2019/09/26 20:28:46 [DEBUG] DB: Add affiliation org2.department1\n","stream":"stderr","time":"2019-09-26T20:28:46.978032123Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Affiliation 'org2.department1' added\n","stream":"stderr","time":"2019-09-26T20:28:47.0038029Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] DB: Add affiliation org1\n","stream":"stderr","time":"2019-09-26T20:28:47.003819671Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Affiliation 'org1' added\n","stream":"stderr","time":"2019-09-26T20:28:47.024161377Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] DB: Add affiliation org1.department1\n","stream":"stderr","time":"2019-09-26T20:28:47.024182927Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Affiliation 'org1.department1' added\n","stream":"stderr","time":"2019-09-26T20:28:47.052255141Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] DB: Add affiliation org1.department2\n","stream":"stderr","time":"2019-09-26T20:28:47.052267905Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Affiliation 'org1.department2' added\n","stream":"stderr","time":"2019-09-26T20:28:47.085873016Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Successfully loaded affiliations table\n","stream":"stderr","time":"2019-09-26T20:28:47.085897803Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Checking and performing migration, if needed\n","stream":"stderr","time":"2019-09-26T20:28:47.085902672Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Updating database level to \u0026{Identity:1 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}\n","stream":"stderr","time":"2019-09-26T20:28:47.085945833Z"}
+{"log":"2019/09/26 20:28:47 [INFO] Initialized sqlite3 database at /etc/hyperledger/fabric-ca-server/fabric-ca-server.db\n","stream":"stderr","time":"2019-09-26T20:28:47.51777921Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Initializing enrollment signer\n","stream":"stderr","time":"2019-09-26T20:28:47.51779548Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] No key found in BCCSP keystore, attempting fallback\n","stream":"stderr","time":"2019-09-26T20:28:47.517798395Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] validating configuration\n","stream":"stderr","time":"2019-09-26T20:28:47.517801091Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] validate local profile\n","stream":"stderr","time":"2019-09-26T20:28:47.517803515Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] profile is valid\n","stream":"stderr","time":"2019-09-26T20:28:47.517805829Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] validate local profile\n","stream":"stderr","time":"2019-09-26T20:28:47.517808104Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] profile is valid\n","stream":"stderr","time":"2019-09-26T20:28:47.517810278Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] validate local profile\n","stream":"stderr","time":"2019-09-26T20:28:47.517812472Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] profile is valid\n","stream":"stderr","time":"2019-09-26T20:28:47.517814696Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] CA initialization successful\n","stream":"stderr","time":"2019-09-26T20:28:47.51781679Z"}
+{"log":"2019/09/26 20:28:47 [INFO] The issuer key was successfully stored. The public key is at: /etc/hyperledger/fabric-ca-server/IssuerPublicKey, secret key is at: /etc/hyperledger/fabric-ca-server/msp/keystore/IssuerSecretKey\n","stream":"stderr","time":"2019-09-26T20:28:47.555508708Z"}
+{"log":"2019/09/26 20:28:47 [INFO] The revocation key was successfully stored. The public key is at: /etc/hyperledger/fabric-ca-server/IssuerRevocationPublicKey, private key is at: /etc/hyperledger/fabric-ca-server/msp/keystore/IssuerRevocationPrivateKey\n","stream":"stderr","time":"2019-09-26T20:28:47.558998868Z"}
+{"log":"2019/09/26 20:28:47 [INFO] Home directory for default CA: /etc/hyperledger/fabric-ca-server\n","stream":"stderr","time":"2019-09-26T20:28:47.63164842Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] 1 CA instance(s) running on server\n","stream":"stderr","time":"2019-09-26T20:28:47.631882048Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] TLS is enabled\n","stream":"stderr","time":"2019-09-26T20:28:47.631943834Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] TLS Certificate: /etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem, TLS Key: /etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk\n","stream":"stderr","time":"2019-09-26T20:28:47.631946479Z"}
+{"log":"2019/09/26 20:28:47 [DEBUG] Client authentication type requested: noclientcert\n","stream":"stderr","time":"2019-09-26T20:28:47.632249502Z"}
+{"log":"2019/09/26 20:28:47 [INFO] Listening on https://0.0.0.0:7054\n","stream":"stderr","time":"2019-09-26T20:28:47.632288545Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received request for /api/v1/enroll\n","stream":"stderr","time":"2019-09-26T20:41:38.804502625Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] ca.Config: \u0026{Version:1.2.0-stable Cfg:{Identities:{AllowRemove:false} Affiliations:{AllowRemove:false}} CA:{Name:ca-org3 Keyfile:/etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk Certfile:/etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem Chainfile:/etc/hyperledger/fabric-ca-server/ca-chain.pem} Signing:0xc4202e63a0 CSR:{CN:ca.org3.example.com Names:[{C:US ST:North Carolina L: O:Hyperledger OU:Fabric SerialNumber:}] Hosts:[8056c3e6a24f localhost] KeyRequest:\u003cnil\u003e CA:0xc420267a60 SerialNumber:} Registry:{MaxEnrollments:-1 Identities:[{ Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:0 Attrs:map[hf.AffiliationMgr:1 hf.Registrar.Roles:* hf.Registrar.DelegateRoles:* hf.Revoker:1 hf.IntermediateCA:1 hf.GenCRL:1 hf.Registrar.Attributes:*]  }]} Affiliations:map[org1:[department1 department2] org2:[department1]] LDAP:{ Enabled:false URL:ldap://****:****@\u003chost\u003e:\u003cport\u003e/\u003cbase\u003e UserFilter:(uid=%s) GroupFilter:(memberUid=%s) Attribute:{[uid member] [{ }] map[groups:[{ }]]} TLS:{false [] { }}  } DB:{ Type:sqlite3 Datasource:/etc/hyperledger/fabric-ca-server/fabric-ca-server.db TLS:{false [] { }}  } CSP:0xc4202d8990 Client:\u003cnil\u003e Intermediate:{ParentServer:{ URL: CAName:  } TLS:{Enabled:false CertFiles:[] Client:{KeyFile: CertFile:}} Enrollment:{ Name: Secret:**** CAName: AttrReqs:[] Profile: Label: CSR:\u003cnil\u003e Type:x509  }} CRL:{Expiry:24h0m0s} Idemix:{IssuerPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerPublicKey IssuerSecretKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerSecretKey RevocationPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerRevocationPublicKey RevocationPrivateKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerRevocationPrivateKey RHPoolSize:1000 NonceExpiration:15s NonceSweepInterval:15m}}\n","stream":"stderr","time":"2019-09-26T20:41:38.804669011Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.804690531Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Login user admin with max enrollments of -1 and state of 0\n","stream":"stderr","time":"2019-09-26T20:41:38.804922372Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: identity admin successfully logged in\n","stream":"stderr","time":"2019-09-26T20:41:38.865451709Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.865471416Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing sign request: id=admin, CommonName=admin, Subject=\u003cnil\u003e\n","stream":"stderr","time":"2019-09-26T20:41:38.865692547Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Request is not for a CA signing certificate\n","stream":"stderr","time":"2019-09-26T20:41:38.865711352Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking CSR fields to make sure that they do not exceed maximum character limits\n","stream":"stderr","time":"2019-09-26T20:41:38.865714327Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Finished processing sign request\n","stream":"stderr","time":"2019-09-26T20:41:38.865716812Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.865719016Z"}
+{"log":"2019/09/26 20:41:38 [INFO] signed certificate with serial number 55180907179314091920588599116796599342158114667\n","stream":"stderr","time":"2019-09-26T20:41:38.866082582Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Insert Certificate\n","stream":"stderr","time":"2019-09-26T20:41:38.86615566Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Saved serial number as hex 9aa65bfa8055c7c06e7d401005aa32d9f54ef6b\n","stream":"stderr","time":"2019-09-26T20:41:38.866255272Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] saved certificate with serial number 55180907179314091920588599116796599342158114667\n","stream":"stderr","time":"2019-09-26T20:41:38.872842058Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Successfully incremented state for identity admin to 1\n","stream":"stderr","time":"2019-09-26T20:41:38.887389593Z"}
+{"log":"2019/09/26 20:41:38 [INFO] 172.26.0.1:45044 POST /api/v1/enroll 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:38.887408429Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received request for /api/v1/affiliations\n","stream":"stderr","time":"2019-09-26T20:41:38.899912757Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.900343936Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:38.90035162Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.900550138Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.900702664Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received affiliation update request from admin\n","stream":"stderr","time":"2019-09-26T20:41:38.900710078Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing affiliation configuration update request\n","stream":"stderr","time":"2019-09-26T20:41:38.900713634Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing GET all affiliations request\n","stream":"stderr","time":"2019-09-26T20:41:38.90071687Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Requesting all affiliations that the caller is authorized view\n","stream":"stderr","time":"2019-09-26T20:41:38.900719856Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get affiliation \n","stream":"stderr","time":"2019-09-26T20:41:38.900722611Z"}
+{"log":"2019/09/26 20:41:38 [INFO] 172.26.0.1:45048 GET /api/v1/affiliations 200 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:38.900811279Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received request for /api/v1/affiliations?force=true\n","stream":"stderr","time":"2019-09-26T20:41:38.906094832Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.906479895Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:38.906489974Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.906678633Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.906832496Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received affiliation update request from admin\n","stream":"stderr","time":"2019-09-26T20:41:38.906840171Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing affiliation configuration update request\n","stream":"stderr","time":"2019-09-26T20:41:38.906842715Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing POST request\n","stream":"stderr","time":"2019-09-26T20:41:38.90684491Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Request to add affiliation 'org3.department1'\n","stream":"stderr","time":"2019-09-26T20:41:38.906883873Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get affiliation org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:38.906889934Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking to see if affiliation 'org3.department1' contains caller's affiliation ''\n","stream":"stderr","time":"2019-09-26T20:41:38.906989025Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Caller has root affiliation\n","stream":"stderr","time":"2019-09-26T20:41:38.906995627Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Add affiliation org3\n","stream":"stderr","time":"2019-09-26T20:41:38.906997822Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Affiliation 'org3' added\n","stream":"stderr","time":"2019-09-26T20:41:38.914142193Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Add affiliation org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:38.914161309Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Affiliation 'org3.department1' added\n","stream":"stderr","time":"2019-09-26T20:41:38.940143717Z"}
+{"log":"2019/09/26 20:41:38 [INFO] 172.26.0.1:45052 POST /api/v1/affiliations?force=true 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:38.940167932Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received request for /api/v1/affiliations?force=true\n","stream":"stderr","time":"2019-09-26T20:41:38.944288862Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.944616813Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:38.944633834Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.944805912Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.944909722Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received affiliation update request from admin\n","stream":"stderr","time":"2019-09-26T20:41:38.944918108Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing affiliation configuration update request\n","stream":"stderr","time":"2019-09-26T20:41:38.944920903Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing POST request\n","stream":"stderr","time":"2019-09-26T20:41:38.944923287Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Request to add affiliation 'org4.department1'\n","stream":"stderr","time":"2019-09-26T20:41:38.944925522Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get affiliation org4.department1\n","stream":"stderr","time":"2019-09-26T20:41:38.944927726Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking to see if affiliation 'org4.department1' contains caller's affiliation ''\n","stream":"stderr","time":"2019-09-26T20:41:38.945040648Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Caller has root affiliation\n","stream":"stderr","time":"2019-09-26T20:41:38.945048412Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Add affiliation org4\n","stream":"stderr","time":"2019-09-26T20:41:38.945051408Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Affiliation 'org4' added\n","stream":"stderr","time":"2019-09-26T20:41:38.961817495Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Add affiliation org4.department1\n","stream":"stderr","time":"2019-09-26T20:41:38.961828846Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Affiliation 'org4.department1' added\n","stream":"stderr","time":"2019-09-26T20:41:38.982943251Z"}
+{"log":"2019/09/26 20:41:38 [INFO] 172.26.0.1:45056 POST /api/v1/affiliations?force=true 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:38.982960683Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received request for /api/v1/affiliations?force=true\n","stream":"stderr","time":"2019-09-26T20:41:38.986923701Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.987281587Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:38.98729912Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:38.987530044Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:38.987612889Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Received affiliation update request from admin\n","stream":"stderr","time":"2019-09-26T20:41:38.98761874Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing affiliation configuration update request\n","stream":"stderr","time":"2019-09-26T20:41:38.987621064Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Processing POST request\n","stream":"stderr","time":"2019-09-26T20:41:38.987623188Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Request to add affiliation 'org5.department1'\n","stream":"stderr","time":"2019-09-26T20:41:38.987625172Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Get affiliation org5.department1\n","stream":"stderr","time":"2019-09-26T20:41:38.987627286Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Checking to see if affiliation 'org5.department1' contains caller's affiliation ''\n","stream":"stderr","time":"2019-09-26T20:41:38.987711313Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] Caller has root affiliation\n","stream":"stderr","time":"2019-09-26T20:41:38.987720481Z"}
+{"log":"2019/09/26 20:41:38 [DEBUG] DB: Add affiliation org5\n","stream":"stderr","time":"2019-09-26T20:41:38.987724088Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Affiliation 'org5' added\n","stream":"stderr","time":"2019-09-26T20:41:39.009090794Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Add affiliation org5.department1\n","stream":"stderr","time":"2019-09-26T20:41:39.009105231Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Affiliation 'org5.department1' added\n","stream":"stderr","time":"2019-09-26T20:41:39.029197889Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45060 POST /api/v1/affiliations?force=true 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.029212416Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received request for /api/v1/register\n","stream":"stderr","time":"2019-09-26T20:41:39.035275227Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.035768648Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:39.035786782Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:39.036037588Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.036155609Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received registration request from admin: { Name:prosecutor1 Type: Secret:**** MaxEnrollments:1 Affiliation:org3.department1 Attributes:[] CAName:ca-org3  }\n","stream":"stderr","time":"2019-09-26T20:41:39.036162893Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] canRegister - Check to see if user 'admin' can register\n","stream":"stderr","time":"2019-09-26T20:41:39.03616668Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if caller 'admin' can act on type 'client'\n","stream":"stderr","time":"2019-09-26T20:41:39.036169906Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if caller 'admin' is a registrar\n","stream":"stderr","time":"2019-09-26T20:41:39.036173192Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Validating affiliation: org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:39.036176087Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if affiliation 'org3.department1' contains caller's affiliation ''\n","stream":"stderr","time":"2019-09-26T20:41:39.036178943Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Caller has root affiliation\n","stream":"stderr","time":"2019-09-26T20:41:39.036181848Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get affiliation org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:39.036184554Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Registering user id: prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.036312875Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Max enrollment value verification - User specified max enrollment: 1, CA max enrollment: -1\n","stream":"stderr","time":"2019-09-26T20:41:39.03635271Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.036357959Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Add identity prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.036365002Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successfully added identity prosecutor1 to the database\n","stream":"stderr","time":"2019-09-26T20:41:39.101660034Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45064 POST /api/v1/register 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.101674972Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received request for /api/v1/enroll\n","stream":"stderr","time":"2019-09-26T20:41:39.146156595Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] ca.Config: \u0026{Version:1.2.0-stable Cfg:{Identities:{AllowRemove:false} Affiliations:{AllowRemove:false}} CA:{Name:ca-org3 Keyfile:/etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk Certfile:/etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem Chainfile:/etc/hyperledger/fabric-ca-server/ca-chain.pem} Signing:0xc4202e63a0 CSR:{CN:ca.org3.example.com Names:[{C:US ST:North Carolina L: O:Hyperledger OU:Fabric SerialNumber:}] Hosts:[8056c3e6a24f localhost] KeyRequest:\u003cnil\u003e CA:0xc420267a60 SerialNumber:} Registry:{MaxEnrollments:-1 Identities:[{ Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:0 Attrs:map[hf.GenCRL:1 hf.Registrar.Attributes:* hf.AffiliationMgr:1 hf.Registrar.Roles:* hf.Registrar.DelegateRoles:* hf.Revoker:1 hf.IntermediateCA:1]  }]} Affiliations:map[org2:[department1] org1:[department1 department2]] LDAP:{ Enabled:false URL:ldap://****:****@\u003chost\u003e:\u003cport\u003e/\u003cbase\u003e UserFilter:(uid=%s) GroupFilter:(memberUid=%s) Attribute:{[uid member] [{ }] map[groups:[{ }]]} TLS:{false [] { }}  } DB:{ Type:sqlite3 Datasource:/etc/hyperledger/fabric-ca-server/fabric-ca-server.db TLS:{false [] { }}  } CSP:0xc4202d8990 Client:\u003cnil\u003e Intermediate:{ParentServer:{ URL: CAName:  } TLS:{Enabled:false CertFiles:[] Client:{KeyFile: CertFile:}} Enrollment:{ Name: Secret:**** CAName: AttrReqs:[] Profile: Label: CSR:\u003cnil\u003e Type:x509  }} CRL:{Expiry:24h0m0s} Idemix:{IssuerPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerPublicKey IssuerSecretKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerSecretKey RevocationPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerRevocationPublicKey RevocationPrivateKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerRevocationPrivateKey RHPoolSize:1000 NonceExpiration:15s NonceSweepInterval:15m}}\n","stream":"stderr","time":"2019-09-26T20:41:39.14632518Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.146343926Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Login user prosecutor1 with max enrollments of 1 and state of 0\n","stream":"stderr","time":"2019-09-26T20:41:39.146528176Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: identity prosecutor1 successfully logged in\n","stream":"stderr","time":"2019-09-26T20:41:39.209389348Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.209410788Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Processing sign request: id=prosecutor1, CommonName=prosecutor1, Subject=\u003cnil\u003e\n","stream":"stderr","time":"2019-09-26T20:41:39.209668916Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Request is not for a CA signing certificate\n","stream":"stderr","time":"2019-09-26T20:41:39.209689004Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking CSR fields to make sure that they do not exceed maximum character limits\n","stream":"stderr","time":"2019-09-26T20:41:39.209692401Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Finished processing sign request\n","stream":"stderr","time":"2019-09-26T20:41:39.209695316Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor1\n","stream":"stderr","time":"2019-09-26T20:41:39.209698272Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Attribute extension being added to certificate is: \u0026{ID:[1 2 3 4 5 6 7 8 1] Critical:false Value:7b226174747273223a7b2268662e416666696c696174696f6e223a226f7267332e6465706172746d656e7431222c2268662e456e726f6c6c6d656e744944223a2270726f73656375746f7231222c2268662e54797065223a22636c69656e74227d7d}\n","stream":"stderr","time":"2019-09-26T20:41:39.209805038Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Adding attribute extension to CSR: \u0026{ID:[1 2 3 4 5 6 7 8 1] Critical:false Value:7b226174747273223a7b2268662e416666696c696174696f6e223a226f7267332e6465706172746d656e7431222c2268662e456e726f6c6c6d656e744944223a2270726f73656375746f7231222c2268662e54797065223a22636c69656e74227d7d}\n","stream":"stderr","time":"2019-09-26T20:41:39.209816188Z"}
+{"log":"2019/09/26 20:41:39 [INFO] signed certificate with serial number 689466209108150859935558059827008802502717063986\n","stream":"stderr","time":"2019-09-26T20:41:39.210110735Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Insert Certificate\n","stream":"stderr","time":"2019-09-26T20:41:39.210132486Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Saved serial number as hex 78c4bbecb945ee5e402a5418f5e99f557481c332\n","stream":"stderr","time":"2019-09-26T20:41:39.21022704Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] saved certificate with serial number 689466209108150859935558059827008802502717063986\n","stream":"stderr","time":"2019-09-26T20:41:39.225992009Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successfully incremented state for identity prosecutor1 to 1\n","stream":"stderr","time":"2019-09-26T20:41:39.248397033Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45068 POST /api/v1/enroll 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.248410038Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received request for /api/v1/affiliations\n","stream":"stderr","time":"2019-09-26T20:41:39.280909772Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.281293717Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:39.28131177Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:39.281496271Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.28161031Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received affiliation update request from admin\n","stream":"stderr","time":"2019-09-26T20:41:39.281620249Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Processing affiliation configuration update request\n","stream":"stderr","time":"2019-09-26T20:41:39.281623756Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Processing GET all affiliations request\n","stream":"stderr","time":"2019-09-26T20:41:39.281627413Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Requesting all affiliations that the caller is authorized view\n","stream":"stderr","time":"2019-09-26T20:41:39.281630398Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get affiliation \n","stream":"stderr","time":"2019-09-26T20:41:39.281633434Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45074 GET /api/v1/affiliations 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.281763128Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received request for /api/v1/register\n","stream":"stderr","time":"2019-09-26T20:41:39.286574406Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking for revocation/expiration of certificate owned by 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.286944751Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get certificate by serial (9aa65bfa8055c7c06e7d401005aa32d9f54ef6b) and aki (a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725)\n","stream":"stderr","time":"2019-09-26T20:41:39.286952235Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity admin\n","stream":"stderr","time":"2019-09-26T20:41:39.287183624Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successful token authentication of 'admin'\n","stream":"stderr","time":"2019-09-26T20:41:39.287340093Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received registration request from admin: { Name:prosecutor2 Type: Secret:**** MaxEnrollments:1 Affiliation:org3.department1 Attributes:[] CAName:ca-org3  }\n","stream":"stderr","time":"2019-09-26T20:41:39.287346875Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] canRegister - Check to see if user 'admin' can register\n","stream":"stderr","time":"2019-09-26T20:41:39.28734959Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if caller 'admin' can act on type 'client'\n","stream":"stderr","time":"2019-09-26T20:41:39.287352095Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if caller 'admin' is a registrar\n","stream":"stderr","time":"2019-09-26T20:41:39.287354249Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Validating affiliation: org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:39.287356273Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking to see if affiliation 'org3.department1' contains caller's affiliation ''\n","stream":"stderr","time":"2019-09-26T20:41:39.287358247Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Caller has root affiliation\n","stream":"stderr","time":"2019-09-26T20:41:39.2873603Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Get affiliation org3.department1\n","stream":"stderr","time":"2019-09-26T20:41:39.287362344Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Registering user id: prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.28737596Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Max enrollment value verification - User specified max enrollment: 1, CA max enrollment: -1\n","stream":"stderr","time":"2019-09-26T20:41:39.287378274Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.287380338Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Add identity prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.287473808Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successfully added identity prosecutor2 to the database\n","stream":"stderr","time":"2019-09-26T20:41:39.353799524Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45078 POST /api/v1/register 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.35381341Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Received request for /api/v1/enroll\n","stream":"stderr","time":"2019-09-26T20:41:39.389820457Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] ca.Config: \u0026{Version:1.2.0-stable Cfg:{Identities:{AllowRemove:false} Affiliations:{AllowRemove:false}} CA:{Name:ca-org3 Keyfile:/etc/hyperledger/fabric-ca-server-config/a70d14e008b7cc5c816584ffae3f2c79f142c29092f9dfdd5f2d7d3ef5480725_sk Certfile:/etc/hyperledger/fabric-ca-server-config/ca.org3.example.com-cert.pem Chainfile:/etc/hyperledger/fabric-ca-server/ca-chain.pem} Signing:0xc4202e63a0 CSR:{CN:ca.org3.example.com Names:[{C:US ST:North Carolina L: O:Hyperledger OU:Fabric SerialNumber:}] Hosts:[8056c3e6a24f localhost] KeyRequest:\u003cnil\u003e CA:0xc420267a60 SerialNumber:} Registry:{MaxEnrollments:-1 Identities:[{ Name:**** Pass:**** Type:client Affiliation: MaxEnrollments:0 Attrs:map[hf.Revoker:1 hf.IntermediateCA:1 hf.GenCRL:1 hf.Registrar.Attributes:* hf.AffiliationMgr:1 hf.Registrar.Roles:* hf.Registrar.DelegateRoles:*]  }]} Affiliations:map[org2:[department1] org1:[department1 department2]] LDAP:{ Enabled:false URL:ldap://****:****@\u003chost\u003e:\u003cport\u003e/\u003cbase\u003e UserFilter:(uid=%s) GroupFilter:(memberUid=%s) Attribute:{[uid member] [{ }] map[groups:[{ }]]} TLS:{false [] { }}  } DB:{ Type:sqlite3 Datasource:/etc/hyperledger/fabric-ca-server/fabric-ca-server.db TLS:{false [] { }}  } CSP:0xc4202d8990 Client:\u003cnil\u003e Intermediate:{ParentServer:{ URL: CAName:  } TLS:{Enabled:false CertFiles:[] Client:{KeyFile: CertFile:}} Enrollment:{ Name: Secret:**** CAName: AttrReqs:[] Profile: Label: CSR:\u003cnil\u003e Type:x509  }} CRL:{Expiry:24h0m0s} Idemix:{IssuerPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerPublicKey IssuerSecretKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerSecretKey RevocationPublicKeyfile:/etc/hyperledger/fabric-ca-server/IssuerRevocationPublicKey RevocationPrivateKeyfile:/etc/hyperledger/fabric-ca-server/msp/keystore/IssuerRevocationPrivateKey RHPoolSize:1000 NonceExpiration:15s NonceSweepInterval:15m}}\n","stream":"stderr","time":"2019-09-26T20:41:39.390010718Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.390021689Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Login user prosecutor2 with max enrollments of 1 and state of 0\n","stream":"stderr","time":"2019-09-26T20:41:39.390257487Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: identity prosecutor2 successfully logged in\n","stream":"stderr","time":"2019-09-26T20:41:39.450070055Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.450087177Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Processing sign request: id=prosecutor2, CommonName=prosecutor2, Subject=\u003cnil\u003e\n","stream":"stderr","time":"2019-09-26T20:41:39.450392925Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Request is not for a CA signing certificate\n","stream":"stderr","time":"2019-09-26T20:41:39.450410828Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Checking CSR fields to make sure that they do not exceed maximum character limits\n","stream":"stderr","time":"2019-09-26T20:41:39.450413584Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Finished processing sign request\n","stream":"stderr","time":"2019-09-26T20:41:39.450423913Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Getting identity prosecutor2\n","stream":"stderr","time":"2019-09-26T20:41:39.450426168Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Attribute extension being added to certificate is: \u0026{ID:[1 2 3 4 5 6 7 8 1] Critical:false Value:7b226174747273223a7b2268662e416666696c696174696f6e223a226f7267332e6465706172746d656e7431222c2268662e456e726f6c6c6d656e744944223a2270726f73656375746f7232222c2268662e54797065223a22636c69656e74227d7d}\n","stream":"stderr","time":"2019-09-26T20:41:39.450531511Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Adding attribute extension to CSR: \u0026{ID:[1 2 3 4 5 6 7 8 1] Critical:false Value:7b226174747273223a7b2268662e416666696c696174696f6e223a226f7267332e6465706172746d656e7431222c2268662e456e726f6c6c6d656e744944223a2270726f73656375746f7232222c2268662e54797065223a22636c69656e74227d7d}\n","stream":"stderr","time":"2019-09-26T20:41:39.450539846Z"}
+{"log":"2019/09/26 20:41:39 [INFO] signed certificate with serial number 236840761831773604182475098534157127016122060590\n","stream":"stderr","time":"2019-09-26T20:41:39.450946789Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] DB: Insert Certificate\n","stream":"stderr","time":"2019-09-26T20:41:39.451083406Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Saved serial number as hex 297c4e9bf1b9d4b849d85885dc6194365b6a8f2e\n","stream":"stderr","time":"2019-09-26T20:41:39.451231474Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] saved certificate with serial number 236840761831773604182475098534157127016122060590\n","stream":"stderr","time":"2019-09-26T20:41:39.456764201Z"}
+{"log":"2019/09/26 20:41:39 [DEBUG] Successfully incremented state for identity prosecutor2 to 1\n","stream":"stderr","time":"2019-09-26T20:41:39.469044625Z"}
+{"log":"2019/09/26 20:41:39 [INFO] 172.26.0.1:45082 POST /api/v1/enroll 201 0 \"OK\"\n","stream":"stderr","time":"2019-09-26T20:41:39.469055435Z"}
+{"log":"2019/09/26 20:43:47 [DEBUG] Cleaning up expired nonces for CA 'ca-org3'\n","stream":"stderr","time":"2019-09-26T20:43:47.63367636Z"}

@@ -1,0 +1,430 @@
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 001[0m Found map[string]interface{} value for peer.BCCSP
+[36m2019-09-26 20:59:53.318 UTC [viperutil] unmarshalJSON -> DEBU 002[0m Unmarshal JSON: value cannot be unmarshalled: invalid character 'S' looking for beginning of value
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 003[0m Found real value for peer.BCCSP.Default setting to string SW
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 004[0m Found map[string]interface{} value for peer.BCCSP.SW
+[36m2019-09-26 20:59:53.318 UTC [viperutil] unmarshalJSON -> DEBU 005[0m Unmarshal JSON: value cannot be unmarshalled: invalid character 'S' looking for beginning of value
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 006[0m Found real value for peer.BCCSP.SW.Hash setting to string SHA2
+[36m2019-09-26 20:59:53.318 UTC [viperutil] unmarshalJSON -> DEBU 007[0m Unmarshal JSON: value is not a string: 256
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 008[0m Found real value for peer.BCCSP.SW.Security setting to int 256
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 009[0m Found map[string]interface{} value for peer.BCCSP.SW.FileKeyStore
+[36m2019-09-26 20:59:53.318 UTC [viperutil] unmarshalJSON -> DEBU 00a[0m Unmarshal JSON: value cannot be unmarshalled: unexpected end of JSON input
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 00b[0m Found real value for peer.BCCSP.SW.FileKeyStore.KeyStore setting to string 
+[36m2019-09-26 20:59:53.318 UTC [viperutil] getKeysRecursively -> DEBU 00c[0m Found map[string]interface{} value for peer.BCCSP.PKCS11
+[36m2019-09-26 20:59:53.319 UTC [viperutil] unmarshalJSON -> DEBU 00d[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] getKeysRecursively -> DEBU 00e[0m Found real value for peer.BCCSP.PKCS11.Pin setting to <nil> <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] unmarshalJSON -> DEBU 00f[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] getKeysRecursively -> DEBU 010[0m Found real value for peer.BCCSP.PKCS11.Hash setting to <nil> <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] unmarshalJSON -> DEBU 011[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] getKeysRecursively -> DEBU 012[0m Found real value for peer.BCCSP.PKCS11.Security setting to <nil> <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] getKeysRecursively -> DEBU 013[0m Found map[string]interface{} value for peer.BCCSP.PKCS11.FileKeyStore
+[36m2019-09-26 20:59:53.319 UTC [viperutil] unmarshalJSON -> DEBU 014[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.319 UTC [viperutil] getKeysRecursively -> DEBU 015[0m Found real value for peer.BCCSP.PKCS11.FileKeyStore.KeyStore setting to <nil> <nil>
+[36m2019-09-26 20:59:53.320 UTC [viperutil] unmarshalJSON -> DEBU 016[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.320 UTC [viperutil] getKeysRecursively -> DEBU 017[0m Found real value for peer.BCCSP.PKCS11.Library setting to <nil> <nil>
+[36m2019-09-26 20:59:53.320 UTC [viperutil] unmarshalJSON -> DEBU 018[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.320 UTC [viperutil] getKeysRecursively -> DEBU 019[0m Found real value for peer.BCCSP.PKCS11.Label setting to <nil> <nil>
+[36m2019-09-26 20:59:53.320 UTC [viperutil] EnhancedExactUnmarshalKey -> DEBU 01a[0m map[peer.BCCSP:map[PKCS11:map[Pin:<nil> Hash:<nil> Security:<nil> FileKeyStore:map[KeyStore:<nil>] Library:<nil> Label:<nil>] Default:SW SW:map[Hash:SHA2 Security:256 FileKeyStore:map[KeyStore:]]]]
+[36m2019-09-26 20:59:53.320 UTC [bccsp_sw] openKeyStore -> DEBU 01b[0m KeyStore opened at [/etc/hyperledger/crypto/peer/msp/keystore]...done
+[36m2019-09-26 20:59:53.320 UTC [bccsp] initBCCSP -> DEBU 01c[0m Initialize BCCSP [SW]
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 01d[0m Reading directory /etc/hyperledger/crypto/peer/msp/signcerts
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 01e[0m Inspecting file /etc/hyperledger/crypto/peer/msp/signcerts/peer0.org4.example.com-cert.pem
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 01f[0m Reading directory /etc/hyperledger/crypto/peer/msp/cacerts
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 020[0m Inspecting file /etc/hyperledger/crypto/peer/msp/cacerts/ca.org4.example.com-cert.pem
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 021[0m Reading directory /etc/hyperledger/crypto/peer/msp/admincerts
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 022[0m Inspecting file /etc/hyperledger/crypto/peer/msp/admincerts/Admin@org4.example.com-cert.pem
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 023[0m Reading directory /etc/hyperledger/crypto/peer/msp/intermediatecerts
+[36m2019-09-26 20:59:53.320 UTC [msp] getMspConfig -> DEBU 024[0m Intermediate certs folder not found at [/etc/hyperledger/crypto/peer/msp/intermediatecerts]. Skipping. [stat /etc/hyperledger/crypto/peer/msp/intermediatecerts: no such file or directory]
+[36m2019-09-26 20:59:53.320 UTC [msp] getPemMaterialFromDir -> DEBU 025[0m Reading directory /etc/hyperledger/crypto/peer/msp/tlscacerts
+[36m2019-09-26 20:59:53.321 UTC [msp] getPemMaterialFromDir -> DEBU 026[0m Inspecting file /etc/hyperledger/crypto/peer/msp/tlscacerts/tlsca.org4.example.com-cert.pem
+[36m2019-09-26 20:59:53.321 UTC [msp] getPemMaterialFromDir -> DEBU 027[0m Reading directory /etc/hyperledger/crypto/peer/msp/tlsintermediatecerts
+[36m2019-09-26 20:59:53.321 UTC [msp] getMspConfig -> DEBU 028[0m TLS intermediate certs folder not found at [/etc/hyperledger/crypto/peer/msp/tlsintermediatecerts]. Skipping. [stat /etc/hyperledger/crypto/peer/msp/tlsintermediatecerts: no such file or directory]
+[36m2019-09-26 20:59:53.321 UTC [msp] getPemMaterialFromDir -> DEBU 029[0m Reading directory /etc/hyperledger/crypto/peer/msp/crls
+[36m2019-09-26 20:59:53.321 UTC [msp] getMspConfig -> DEBU 02a[0m crls folder not found at [/etc/hyperledger/crypto/peer/msp/crls]. Skipping. [stat /etc/hyperledger/crypto/peer/msp/crls: no such file or directory]
+[36m2019-09-26 20:59:53.321 UTC [msp] getMspConfig -> DEBU 02b[0m MSP configuration file not found at [/etc/hyperledger/crypto/peer/msp/config.yaml]: [stat /etc/hyperledger/crypto/peer/msp/config.yaml: no such file or directory]
+[36m2019-09-26 20:59:53.321 UTC [msp] newBccspMsp -> DEBU 02c[0m Creating BCCSP-based MSP instance
+[36m2019-09-26 20:59:53.321 UTC [msp] New -> DEBU 02d[0m Creating Cache-MSP instance
+[36m2019-09-26 20:59:53.321 UTC [msp] loadLocaMSP -> DEBU 02e[0m Created new local MSP
+[36m2019-09-26 20:59:53.321 UTC [msp] Setup -> DEBU 02f[0m Setting up MSP instance Org4MSP
+[36m2019-09-26 20:59:53.321 UTC [msp/identity] newIdentity -> DEBU 030[0m Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICRDCCAeqgAwIBAgIRAK6r/nvrT9P085aoTDOHJsowCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzQuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzQuZXhhbXBsZS5jb20wHhcNMTkwOTI2MDYzMTE0WhcNMjkwOTIzMDYzMTE0
+WjBzMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnNC5leGFtcGxlLmNvbTEcMBoGA1UE
+AxMTY2Eub3JnNC5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA
+BB7IFN6b18P43Etk34bgTTZZkw8DVQjSLhkLdsdym6d/+bIRehP4nBiTU7Sk72mh
+SU8kUM2gdIXlZt8hCvolnG6jXzBdMA4GA1UdDwEB/wQEAwIBpjAPBgNVHSUECDAG
+BgRVHSUAMA8GA1UdEwEB/wQFMAMBAf8wKQYDVR0OBCIEIHd9ejTPCdBJfeUkL9tm
+kpw2nnJ69TInk7MvgTLeUPCMMAoGCCqGSM49BAMCA0gAMEUCIQCMTDwcbPOAMYni
+lpWQus/5WQsSC7fEuXD6U+YMBFYnDAIgP2u0Ww5JUACtusLxYWKUcAHpPvkn9jYo
+FA0tgyMqRew=
+-----END CERTIFICATE-----
+[36m2019-09-26 20:59:53.321 UTC [msp/identity] newIdentity -> DEBU 031[0m Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGTCCAcCgAwIBAgIRAJLdZEc7yjVRZE1bVbM36EQwCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzQuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzQuZXhhbXBsZS5jb20wHhcNMTkwOTI2MDYzMTE0WhcNMjkwOTIzMDYzMTE0
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnNC5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABDx7ouS2RBRon4MA6m42+WGpBniB5ASC
+MYd6RyVvvrVmA0tf83GJ2hgjMSIkT9UwzeolxthctqgLuC2nEspKHtujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIHd9ejTPCdBJ
+feUkL9tmkpw2nnJ69TInk7MvgTLeUPCMMAoGCCqGSM49BAMCA0cAMEQCIFsTvxQ4
+3S+Bswch+6+sZljTG70JlexqdJtmj+dg/EspAiB6A92AH9pHKZKIewomHNPmDeHn
+Czz3y1c7PpbJXzzJPg==
+-----END CERTIFICATE-----
+[36m2019-09-26 20:59:53.334 UTC [msp/identity] newIdentity -> DEBU 032[0m Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGTCCAcCgAwIBAgIRAJq+MKtjUZEKArJEhfNp4jowCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzQuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzQuZXhhbXBsZS5jb20wHhcNMTkwOTI2MDYzMTE0WhcNMjkwOTIzMDYzMTE0
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAxMWcGVlcjAub3JnNC5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABDmFMks4/4t7/ycHiJXXpGTzKQzGQzJW
+g7dSBZq2pk1Auf+Kj8Zpv6tXSjFkeB3rXUZi8ARi4voDXSImbmFkC2ujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIHd9ejTPCdBJ
+feUkL9tmkpw2nnJ69TInk7MvgTLeUPCMMAoGCCqGSM49BAMCA0cAMEQCIETuasHj
+s/Lo2jt43Zihi2c9vWWRSymJt1A6LbQ5aHBxAiA53m2V7V5fBYcvoipoOgSmax77
+W6BDl503JsOArXJfig==
+-----END CERTIFICATE-----
+[36m2019-09-26 20:59:53.334 UTC [bccsp_sw] loadPrivateKey -> DEBU 033[0m Loading private key [78bbb0fa9d95b2bdd807adf24f0b1413e45bb532a41ddb0013bd1e34df93aab4] at [/etc/hyperledger/crypto/peer/msp/keystore/78bbb0fa9d95b2bdd807adf24f0b1413e45bb532a41ddb0013bd1e34df93aab4_sk]...
+[36m2019-09-26 20:59:53.334 UTC [msp/identity] newIdentity -> DEBU 034[0m Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGTCCAcCgAwIBAgIRAJq+MKtjUZEKArJEhfNp4jowCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzQuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzQuZXhhbXBsZS5jb20wHhcNMTkwOTI2MDYzMTE0WhcNMjkwOTIzMDYzMTE0
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAxMWcGVlcjAub3JnNC5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABDmFMks4/4t7/ycHiJXXpGTzKQzGQzJW
+g7dSBZq2pk1Auf+Kj8Zpv6tXSjFkeB3rXUZi8ARi4voDXSImbmFkC2ujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIHd9ejTPCdBJ
+feUkL9tmkpw2nnJ69TInk7MvgTLeUPCMMAoGCCqGSM49BAMCA0cAMEQCIETuasHj
+s/Lo2jt43Zihi2c9vWWRSymJt1A6LbQ5aHBxAiA53m2V7V5fBYcvoipoOgSmax77
+W6BDl503JsOArXJfig==
+-----END CERTIFICATE-----
+[36m2019-09-26 20:59:53.334 UTC [msp] setupSigningIdentity -> DEBU 035[0m Signing identity expires at 2029-09-23 06:31:14 +0000 UTC
+[36m2019-09-26 20:59:53.334 UTC [msp] Validate -> DEBU 036[0m MSP Org4MSP validating identity
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 037[0m Module 'msp' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 038[0m Module 'msp/identity' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 039[0m Module 'gossip/service' logger enabled for log level 'INFO'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03a[0m Module 'gossip/privdata' logger enabled for log level 'INFO'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03b[0m Module 'gossip/state' logger enabled for log level 'INFO'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03c[0m Module 'ledgermgmt' logger enabled for log level 'INFO'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03d[0m Module 'ledgerstorage' logger enabled for log level 'INFO'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03e[0m Module 'cauthdsl' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 03f[0m Module 'policies/inquire' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 040[0m Module 'policies' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 041[0m Module 'grpc' logger enabled for log level 'ERROR'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 042[0m Module 'peer/gossip/mcs' logger enabled for log level 'WARNING'
+[36m2019-09-26 20:59:53.335 UTC [flogging] setModuleLevel -> DEBU 043[0m Module 'peer/gossip/sa' logger enabled for log level 'WARNING'
+2019-09-26 20:59:53.335 UTC [nodeCmd] serve -> INFO 044[0m Starting peer:
+ Version: 1.2.1
+ Commit SHA: 5017e4d
+ Go version: go1.10
+ OS/Arch: linux/amd64
+ Experimental features: false
+ Chaincode:
+  Base Image Version: 0.4.10
+  Base Docker Namespace: hyperledger
+  Base Docker Label: org.hyperledger.fabric
+  Docker Namespace: hyperledger
+
+2019-09-26 20:59:53.335 UTC [ledgermgmt] initialize -> INFO 045[0m Initializing ledger mgmt
+2019-09-26 20:59:53.335 UTC [kvledger] NewProvider -> INFO 046[0m Initializing ledger provider
+[36m2019-09-26 20:59:53.335 UTC [kvledger.util] CreateDirIfMissing -> DEBU 047[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/ledgerProvider/]
+[36m2019-09-26 20:59:53.335 UTC [kvledger.util] logDirStatus -> DEBU 048[0m Before creating dir - [/var/hyperledger/production/ledgersData/ledgerProvider/] does not exist
+[36m2019-09-26 20:59:53.335 UTC [kvledger.util] logDirStatus -> DEBU 049[0m After creating dir - [/var/hyperledger/production/ledgersData/ledgerProvider/] exists
+[36m2019-09-26 20:59:53.363 UTC [kvledger.util] CreateDirIfMissing -> DEBU 04a[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/chains/index/]
+[36m2019-09-26 20:59:53.363 UTC [kvledger.util] logDirStatus -> DEBU 04b[0m Before creating dir - [/var/hyperledger/production/ledgersData/chains/index/] does not exist
+[36m2019-09-26 20:59:53.364 UTC [kvledger.util] logDirStatus -> DEBU 04c[0m After creating dir - [/var/hyperledger/production/ledgersData/chains/index/] exists
+[36m2019-09-26 20:59:53.397 UTC [kvledger.util] CreateDirIfMissing -> DEBU 04d[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/pvtdataStore/]
+[36m2019-09-26 20:59:53.398 UTC [kvledger.util] logDirStatus -> DEBU 04e[0m Before creating dir - [/var/hyperledger/production/ledgersData/pvtdataStore/] does not exist
+[36m2019-09-26 20:59:53.398 UTC [kvledger.util] logDirStatus -> DEBU 04f[0m After creating dir - [/var/hyperledger/production/ledgersData/pvtdataStore/] exists
+[36m2019-09-26 20:59:53.444 UTC [stateleveldb] NewVersionedDBProvider -> DEBU 050[0m constructing VersionedDBProvider dbPath=/var/hyperledger/production/ledgersData/stateLeveldb
+[36m2019-09-26 20:59:53.444 UTC [kvledger.util] CreateDirIfMissing -> DEBU 051[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/stateLeveldb/]
+[36m2019-09-26 20:59:53.444 UTC [kvledger.util] logDirStatus -> DEBU 052[0m Before creating dir - [/var/hyperledger/production/ledgersData/stateLeveldb/] does not exist
+[36m2019-09-26 20:59:53.444 UTC [kvledger.util] logDirStatus -> DEBU 053[0m After creating dir - [/var/hyperledger/production/ledgersData/stateLeveldb/] exists
+[36m2019-09-26 20:59:53.471 UTC [historyleveldb] NewHistoryDBProvider -> DEBU 054[0m constructing HistoryDBProvider dbPath=/var/hyperledger/production/ledgersData/historyLeveldb
+[36m2019-09-26 20:59:53.471 UTC [kvledger.util] CreateDirIfMissing -> DEBU 055[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/historyLeveldb/]
+[36m2019-09-26 20:59:53.471 UTC [kvledger.util] logDirStatus -> DEBU 056[0m Before creating dir - [/var/hyperledger/production/ledgersData/historyLeveldb/] does not exist
+[36m2019-09-26 20:59:53.471 UTC [kvledger.util] logDirStatus -> DEBU 057[0m After creating dir - [/var/hyperledger/production/ledgersData/historyLeveldb/] exists
+[36m2019-09-26 20:59:53.493 UTC [kvledger.util] CreateDirIfMissing -> DEBU 058[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/bookkeeper/]
+[36m2019-09-26 20:59:53.493 UTC [kvledger.util] logDirStatus -> DEBU 059[0m Before creating dir - [/var/hyperledger/production/ledgersData/bookkeeper/] does not exist
+[36m2019-09-26 20:59:53.493 UTC [kvledger.util] logDirStatus -> DEBU 05a[0m After creating dir - [/var/hyperledger/production/ledgersData/bookkeeper/] exists
+[36m2019-09-26 20:59:53.525 UTC [confighistory] newDBProvider -> DEBU 05b[0m Opening db for config history: db path = /var/hyperledger/production/ledgersData/configHistory
+[36m2019-09-26 20:59:53.525 UTC [kvledger.util] CreateDirIfMissing -> DEBU 05c[0m CreateDirIfMissing [/var/hyperledger/production/ledgersData/configHistory/]
+[36m2019-09-26 20:59:53.525 UTC [kvledger.util] logDirStatus -> DEBU 05d[0m Before creating dir - [/var/hyperledger/production/ledgersData/configHistory/] does not exist
+[36m2019-09-26 20:59:53.525 UTC [kvledger.util] logDirStatus -> DEBU 05e[0m After creating dir - [/var/hyperledger/production/ledgersData/configHistory/] exists
+2019-09-26 20:59:53.559 UTC [kvledger] NewProvider -> INFO 05f[0m ledger provider Initialized
+[36m2019-09-26 20:59:53.559 UTC [kvledger] recoverUnderConstructionLedger -> DEBU 060[0m Recovering under construction ledger
+[36m2019-09-26 20:59:53.559 UTC [kvledger] recoverUnderConstructionLedger -> DEBU 061[0m No under construction ledger found. Quitting recovery
+2019-09-26 20:59:53.559 UTC [ledgermgmt] initialize -> INFO 062[0m ledger mgmt initialized
+2019-09-26 20:59:53.559 UTC [peer] func1 -> INFO 063[0m Auto-detected peer address: 192.168.0.9:7051
+2019-09-26 20:59:53.560 UTC [peer] func1 -> INFO 064[0m Returning peer0.org4.example.com:7051
+2019-09-26 20:59:53.560 UTC [peer] func1 -> INFO 065[0m Auto-detected peer address: 192.168.0.9:7051
+2019-09-26 20:59:53.560 UTC [peer] func1 -> INFO 066[0m Returning peer0.org4.example.com:7051
+2019-09-26 20:59:53.560 UTC [nodeCmd] serve -> INFO 067[0m Starting peer with TLS enabled
+[36m2019-09-26 20:59:53.562 UTC [eventhub_producer] addEventType -> DEBU 068[0m Registering BLOCK
+[36m2019-09-26 20:59:53.562 UTC [eventhub_producer] addEventType -> DEBU 069[0m Registering FILTEREDBLOCK
+2019-09-26 20:59:53.562 UTC [eventhub_producer] start -> INFO 06a[0m Event processor started
+2019-09-26 20:59:53.562 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 06b[0m Entering computeChaincodeEndpoint with peerHostname: peer0.org4.example.com
+2019-09-26 20:59:53.562 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 06c[0m Exit with ccEndpoint: peer0.org4.example.com:7052
+[33m2019-09-26 20:59:53.562 UTC [nodeCmd] createChaincodeServer -> WARN 06d[0m peer.chaincodeListenAddress is not set, using peer0.org4.example.com:7052
+[36m2019-09-26 20:59:53.564 UTC [inproccontroller] Register -> DEBU 06e[0m Registering chaincode instance: cscc-1.2.1
+2019-09-26 20:59:53.564 UTC [sccapi] registerSysCC -> INFO 06f[0m system chaincode cscc(github.com/hyperledger/fabric/core/scc/cscc) registered
+[36m2019-09-26 20:59:53.564 UTC [inproccontroller] Register -> DEBU 070[0m Registering chaincode instance: lscc-1.2.1
+2019-09-26 20:59:53.564 UTC [sccapi] registerSysCC -> INFO 071[0m system chaincode lscc(github.com/hyperledger/fabric/core/scc/lscc) registered
+[36m2019-09-26 20:59:53.564 UTC [inproccontroller] Register -> DEBU 072[0m Registering chaincode instance: qscc-1.2.1
+2019-09-26 20:59:53.564 UTC [sccapi] registerSysCC -> INFO 073[0m system chaincode qscc(github.com/hyperledger/fabric/core/scc/qscc) registered
+[36m2019-09-26 20:59:53.564 UTC [nodeCmd] serve -> DEBU 074[0m Running peer
+[36m2019-09-26 20:59:53.564 UTC [viperutil] getKeysRecursively -> DEBU 075[0m Found map[string]interface{} value for peer.handlers
+[36m2019-09-26 20:59:53.564 UTC [viperutil] unmarshalJSON -> DEBU 076[0m Unmarshal JSON: value is not a string: [map[name:DefaultAuth] map[name:ExpirationCheck]]
+[36m2019-09-26 20:59:53.564 UTC [viperutil] getKeysRecursively -> DEBU 077[0m Found real value for peer.handlers.authFilters setting to []interface {} [map[name:DefaultAuth] map[name:ExpirationCheck]]
+[36m2019-09-26 20:59:53.565 UTC [viperutil] unmarshalJSON -> DEBU 078[0m Unmarshal JSON: value is not a string: [map[name:DefaultDecorator]]
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 079[0m Found real value for peer.handlers.decorators setting to []interface {} [map[name:DefaultDecorator]]
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 07a[0m Found map[string]interface{} value for peer.handlers.endorsers
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 07b[0m Found map[string]interface{} value for peer.handlers.endorsers.escc
+[36m2019-09-26 20:59:53.565 UTC [viperutil] unmarshalJSON -> DEBU 07c[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 07d[0m Found real value for peer.handlers.endorsers.escc.library setting to <nil> <nil>
+[36m2019-09-26 20:59:53.565 UTC [viperutil] unmarshalJSON -> DEBU 07e[0m Unmarshal JSON: value cannot be unmarshalled: invalid character 'D' looking for beginning of value
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 07f[0m Found real value for peer.handlers.endorsers.escc.name setting to string DefaultEndorsement
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 080[0m Found map[string]interface{} value for peer.handlers.validators
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 081[0m Found map[string]interface{} value for peer.handlers.validators.vscc
+[36m2019-09-26 20:59:53.565 UTC [viperutil] unmarshalJSON -> DEBU 082[0m Unmarshal JSON: value cannot be unmarshalled: invalid character 'D' looking for beginning of value
+[36m2019-09-26 20:59:53.565 UTC [viperutil] getKeysRecursively -> DEBU 083[0m Found real value for peer.handlers.validators.vscc.name setting to string DefaultValidation
+[36m2019-09-26 20:59:53.565 UTC [viperutil] unmarshalJSON -> DEBU 084[0m Unmarshal JSON: value is not a string: <nil>
+[36m2019-09-26 20:59:53.566 UTC [viperutil] getKeysRecursively -> DEBU 085[0m Found real value for peer.handlers.validators.vscc.library setting to <nil> <nil>
+[36m2019-09-26 20:59:53.566 UTC [viperutil] EnhancedExactUnmarshalKey -> DEBU 086[0m map[peer.handlers:map[endorsers:map[escc:map[library:<nil> name:DefaultEndorsement]] validators:map[vscc:map[name:DefaultValidation library:<nil>]] authFilters:[map[name:DefaultAuth] map[name:ExpirationCheck]] decorators:[map[name:DefaultDecorator]]]]
+2019-09-26 20:59:53.566 UTC [gossip/service] func1 -> INFO 087[0m Initialize gossip with endpoint peer0.org4.example.com:7051 and bootstrap set [127.0.0.1:7051]
+2019-09-26 20:59:53.568 UTC [gossip/gossip] NewGossipService -> INFO 088[0m Creating gossip service with self membership of { [] [83 73 114 94 141 153 237 7 79 100 162 184 82 252 176 181 154 26 4 165 158 239 179 237 122 30 127 249 196 79 118 228] peer0.org4.example.com:7051 <nil> <nil>}
+[36m2019-09-26 20:59:53.569 UTC [gossip/discovery] periodicalSendAlive -> DEBU 089[0m Sleeping 5s
+[36m2019-09-26 20:59:53.569 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 08a[0m Sleeping 25s
+[33m2019-09-26 20:59:53.570 UTC [gossip/gossip] NewGossipService -> WARN 08b[0m External endpoint is empty, peer will not be accessible outside of its organization
+2019-09-26 20:59:53.570 UTC [gossip/gossip] start -> INFO 08c[0m Gossip instance peer0.org4.example.com:7051 started
+[36m2019-09-26 20:59:53.570 UTC [ccprovider] NewCCContext -> DEBU 08d[0m NewCCCC(chain=,chaincode=cscc,version=1.2.1,txid=41a02916-3954-417e-a926-0977cf0ae343,syscc=true,proposal=0x0,canname=cscc:1.2.1)
+[36m2019-09-26 20:59:53.570 UTC [gossip/gossip] syncDiscovery -> DEBU 08e[0m Entering discovery sync with interval 4s
+[36m2019-09-26 20:59:53.570 UTC [chaincode] func1 -> DEBU 08f[0m chaincode cscc:1.2.1 is being launched
+[36m2019-09-26 20:59:53.570 UTC [gossip/discovery] Connect -> DEBU 090[0m Skipping connecting to myself
+[36m2019-09-26 20:59:53.570 UTC [chaincode] LaunchConfig -> DEBU 091[0m launchConfig: executable:"chaincode",Args:[chaincode,-peer.address=peer0.org4.example.com:7052],Envs:[CORE_CHAINCODE_LOGGING_LEVEL=info,CORE_CHAINCODE_LOGGING_SHIM=warning,CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message},CORE_CHAINCODE_ID_NAME=cscc:1.2.1,CORE_PEER_TLS_ENABLED=true,CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key,CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt,CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt],Files:[/etc/hyperledger/fabric/client.crt /etc/hyperledger/fabric/client.key /etc/hyperledger/fabric/peer.crt]
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Start -> DEBU 092[0m start container: cscc:1.2.1
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Start -> DEBU 093[0m start container with args: chaincode -peer.address=peer0.org4.example.com:7052
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Start -> DEBU 094[0m start container with env:
+	CORE_CHAINCODE_LOGGING_LEVEL=info
+	CORE_CHAINCODE_LOGGING_SHIM=warning
+	CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message}
+	CORE_CHAINCODE_ID_NAME=cscc:1.2.1
+	CORE_PEER_TLS_ENABLED=true
+	CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key
+	CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt
+	CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt
+[36m2019-09-26 20:59:53.570 UTC [container] lockContainer -> DEBU 095[0m waiting for container(cscc-1.2.1) lock
+[36m2019-09-26 20:59:53.570 UTC [container] lockContainer -> DEBU 096[0m got container (cscc-1.2.1) lock
+[36m2019-09-26 20:59:53.570 UTC [inproccontroller] getInstance -> DEBU 097[0m chaincode instance created for cscc-1.2.1
+[36m2019-09-26 20:59:53.570 UTC [container] unlockContainer -> DEBU 098[0m container lock deleted(cscc-1.2.1)
+[36m2019-09-26 20:59:53.570 UTC [inproccontroller] func2 -> DEBU 099[0m chaincode-support started for  cscc-1.2.1
+[36m2019-09-26 20:59:53.570 UTC [chaincode] HandleChaincodeStream -> DEBU 09a[0m Current context deadline = 0001-01-01 00:00:00 +0000 UTC, ok = false
+[36m2019-09-26 20:59:53.570 UTC [inproccontroller] func1 -> DEBU 09b[0m chaincode started for cscc-1.2.1
+[36m2019-09-26 20:59:53.570 UTC [shim] StartInProc -> DEBU 09c[0m in proc [chaincode -peer.address=peer0.org4.example.com:7052]
+[36m2019-09-26 20:59:53.570 UTC [shim] StartInProc -> DEBU 09d[0m starting chat with peer using name=cscc:1.2.1
+[36m2019-09-26 20:59:53.570 UTC [shim] chatWithPeer -> DEBU 09e[0m Registering.. sending REGISTER
+[36m2019-09-26 20:59:53.570 UTC [chaincode] handleMessage -> DEBU 09f[0m [] Fabric side handling ChaincodeMessage of type: REGISTER in state created
+[36m2019-09-26 20:59:53.570 UTC [chaincode] HandleRegister -> DEBU 0a0[0m Received REGISTER in state created
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Register -> DEBU 0a1[0m registered handler complete for chaincode cscc:1.2.1
+[36m2019-09-26 20:59:53.570 UTC [chaincode] HandleRegister -> DEBU 0a2[0m Got REGISTER for chaincodeID = name:"cscc:1.2.1" , sending back REGISTERED
+[36m2019-09-26 20:59:53.570 UTC [chaincode] HandleRegister -> DEBU 0a3[0m Changed state to established for name:"cscc:1.2.1" 
+[36m2019-09-26 20:59:53.570 UTC [chaincode] sendReady -> DEBU 0a4[0m sending READY for chaincode name:"cscc:1.2.1" 
+[36m2019-09-26 20:59:53.570 UTC [shim] func1 -> DEBU 0a5[0m []Received message REGISTERED from peer
+[36m2019-09-26 20:59:53.570 UTC [shim] handleMessage -> DEBU 0a6[0m [] Handling ChaincodeMessage of type: REGISTERED(state:created)
+[36m2019-09-26 20:59:53.570 UTC [shim] func1 -> DEBU 0a7[0m []Received message READY from peer
+[36m2019-09-26 20:59:53.570 UTC [shim] handleMessage -> DEBU 0a8[0m [] Handling ChaincodeMessage of type: READY(state:established)
+[36m2019-09-26 20:59:53.570 UTC [chaincode] sendReady -> DEBU 0a9[0m Changed to state ready for chaincode name:"cscc:1.2.1" 
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Launch -> DEBU 0aa[0m launch complete
+[36m2019-09-26 20:59:53.570 UTC [chaincode] execute -> DEBU 0ab[0m canonical name: cscc:1.2.1
+[36m2019-09-26 20:59:53.570 UTC [chaincode] Execute -> DEBU 0ac[0m Entry
+[36m2019-09-26 20:59:53.570 UTC [shim] func1 -> DEBU 0ad[0m [41a02916]Received message INIT from peer
+[36m2019-09-26 20:59:53.571 UTC [shim] handleMessage -> DEBU 0ae[0m [41a02916] Handling ChaincodeMessage of type: INIT(state:ready)
+[36m2019-09-26 20:59:53.571 UTC [shim] handleReady -> DEBU 0af[0m [41a02916] Received INIT, initializing chaincode
+2019-09-26 20:59:53.571 UTC [cscc] Init -> INFO 0b0[0m Init CSCC
+[36m2019-09-26 20:59:53.571 UTC [shim] func1 -> DEBU 0b1[0m [41a02916] Init get response status: 200
+[36m2019-09-26 20:59:53.571 UTC [shim] func1 -> DEBU 0b2[0m [41a02916] Init succeeded. Sending COMPLETED
+[36m2019-09-26 20:59:53.571 UTC [shim] triggerNextState -> DEBU 0b3[0m [41a02916] send state message COMPLETED
+[36m2019-09-26 20:59:53.571 UTC [chaincode] handleMessage -> DEBU 0b4[0m [41a02916] Fabric side handling ChaincodeMessage of type: COMPLETED in state ready
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Notify -> DEBU 0b5[0m [41a02916] notifying Txid:41a02916-3954-417e-a926-0977cf0ae343, channelID:
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Execute -> DEBU 0b6[0m Exit
+2019-09-26 20:59:53.571 UTC [sccapi] deploySysCC -> INFO 0b7[0m system chaincode cscc/(github.com/hyperledger/fabric/core/scc/cscc) deployed
+[36m2019-09-26 20:59:53.571 UTC [ccprovider] NewCCContext -> DEBU 0b8[0m NewCCCC(chain=,chaincode=lscc,version=1.2.1,txid=8c420326-cd8b-46f0-9829-387982da7185,syscc=true,proposal=0x0,canname=lscc:1.2.1)
+[36m2019-09-26 20:59:53.571 UTC [chaincode] func1 -> DEBU 0b9[0m chaincode lscc:1.2.1 is being launched
+[36m2019-09-26 20:59:53.571 UTC [chaincode] LaunchConfig -> DEBU 0ba[0m launchConfig: executable:"chaincode",Args:[chaincode,-peer.address=peer0.org4.example.com:7052],Envs:[CORE_CHAINCODE_LOGGING_LEVEL=info,CORE_CHAINCODE_LOGGING_SHIM=warning,CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message},CORE_CHAINCODE_ID_NAME=lscc:1.2.1,CORE_PEER_TLS_ENABLED=true,CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key,CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt,CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt],Files:[/etc/hyperledger/fabric/client.crt /etc/hyperledger/fabric/client.key /etc/hyperledger/fabric/peer.crt]
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Start -> DEBU 0bb[0m start container: lscc:1.2.1
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Start -> DEBU 0bc[0m start container with args: chaincode -peer.address=peer0.org4.example.com:7052
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Start -> DEBU 0bd[0m start container with env:
+	CORE_CHAINCODE_LOGGING_LEVEL=info
+	CORE_CHAINCODE_LOGGING_SHIM=warning
+	CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message}
+	CORE_CHAINCODE_ID_NAME=lscc:1.2.1
+	CORE_PEER_TLS_ENABLED=true
+	CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key
+	CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt
+	CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt
+[36m2019-09-26 20:59:53.571 UTC [container] lockContainer -> DEBU 0be[0m waiting for container(lscc-1.2.1) lock
+[36m2019-09-26 20:59:53.571 UTC [container] lockContainer -> DEBU 0bf[0m got container (lscc-1.2.1) lock
+[36m2019-09-26 20:59:53.571 UTC [inproccontroller] getInstance -> DEBU 0c0[0m chaincode instance created for lscc-1.2.1
+[36m2019-09-26 20:59:53.571 UTC [container] unlockContainer -> DEBU 0c1[0m container lock deleted(lscc-1.2.1)
+[36m2019-09-26 20:59:53.571 UTC [inproccontroller] func2 -> DEBU 0c2[0m chaincode-support started for  lscc-1.2.1
+[36m2019-09-26 20:59:53.571 UTC [chaincode] HandleChaincodeStream -> DEBU 0c3[0m Current context deadline = 0001-01-01 00:00:00 +0000 UTC, ok = false
+[36m2019-09-26 20:59:53.571 UTC [inproccontroller] func1 -> DEBU 0c4[0m chaincode started for lscc-1.2.1
+[36m2019-09-26 20:59:53.571 UTC [shim] StartInProc -> DEBU 0c5[0m in proc [chaincode -peer.address=peer0.org4.example.com:7052]
+[36m2019-09-26 20:59:53.571 UTC [shim] StartInProc -> DEBU 0c6[0m starting chat with peer using name=lscc:1.2.1
+[36m2019-09-26 20:59:53.571 UTC [shim] chatWithPeer -> DEBU 0c7[0m Registering.. sending REGISTER
+[36m2019-09-26 20:59:53.571 UTC [chaincode] handleMessage -> DEBU 0c8[0m [] Fabric side handling ChaincodeMessage of type: REGISTER in state created
+[36m2019-09-26 20:59:53.571 UTC [chaincode] HandleRegister -> DEBU 0c9[0m Received REGISTER in state created
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Register -> DEBU 0ca[0m registered handler complete for chaincode lscc:1.2.1
+[36m2019-09-26 20:59:53.571 UTC [chaincode] HandleRegister -> DEBU 0cb[0m Got REGISTER for chaincodeID = name:"lscc:1.2.1" , sending back REGISTERED
+[36m2019-09-26 20:59:53.571 UTC [chaincode] HandleRegister -> DEBU 0cc[0m Changed state to established for name:"lscc:1.2.1" 
+[36m2019-09-26 20:59:53.571 UTC [chaincode] sendReady -> DEBU 0cd[0m sending READY for chaincode name:"lscc:1.2.1" 
+[36m2019-09-26 20:59:53.571 UTC [shim] func1 -> DEBU 0ce[0m []Received message REGISTERED from peer
+[36m2019-09-26 20:59:53.571 UTC [shim] handleMessage -> DEBU 0cf[0m [] Handling ChaincodeMessage of type: REGISTERED(state:created)
+[36m2019-09-26 20:59:53.571 UTC [shim] func1 -> DEBU 0d0[0m []Received message READY from peer
+[36m2019-09-26 20:59:53.571 UTC [shim] handleMessage -> DEBU 0d1[0m [] Handling ChaincodeMessage of type: READY(state:established)
+[36m2019-09-26 20:59:53.571 UTC [chaincode] sendReady -> DEBU 0d2[0m Changed to state ready for chaincode name:"lscc:1.2.1" 
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Launch -> DEBU 0d3[0m launch complete
+[36m2019-09-26 20:59:53.571 UTC [chaincode] execute -> DEBU 0d4[0m canonical name: lscc:1.2.1
+[36m2019-09-26 20:59:53.571 UTC [chaincode] Execute -> DEBU 0d5[0m Entry
+[36m2019-09-26 20:59:53.571 UTC [shim] func1 -> DEBU 0d6[0m [8c420326]Received message INIT from peer
+[36m2019-09-26 20:59:53.572 UTC [shim] handleMessage -> DEBU 0d7[0m [8c420326] Handling ChaincodeMessage of type: INIT(state:ready)
+[36m2019-09-26 20:59:53.572 UTC [shim] handleReady -> DEBU 0d8[0m [8c420326] Received INIT, initializing chaincode
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 0d9[0m [8c420326] Init get response status: 200
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 0da[0m [8c420326] Init succeeded. Sending COMPLETED
+[36m2019-09-26 20:59:53.572 UTC [shim] triggerNextState -> DEBU 0db[0m [8c420326] send state message COMPLETED
+[36m2019-09-26 20:59:53.572 UTC [chaincode] handleMessage -> DEBU 0dc[0m [8c420326] Fabric side handling ChaincodeMessage of type: COMPLETED in state ready
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Notify -> DEBU 0dd[0m [8c420326] notifying Txid:8c420326-cd8b-46f0-9829-387982da7185, channelID:
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Execute -> DEBU 0de[0m Exit
+2019-09-26 20:59:53.572 UTC [sccapi] deploySysCC -> INFO 0df[0m system chaincode lscc/(github.com/hyperledger/fabric/core/scc/lscc) deployed
+[36m2019-09-26 20:59:53.572 UTC [ccprovider] NewCCContext -> DEBU 0e0[0m NewCCCC(chain=,chaincode=qscc,version=1.2.1,txid=cf268016-d706-48fe-ad67-c5f36ab78abb,syscc=true,proposal=0x0,canname=qscc:1.2.1)
+[36m2019-09-26 20:59:53.572 UTC [chaincode] func1 -> DEBU 0e1[0m chaincode qscc:1.2.1 is being launched
+[36m2019-09-26 20:59:53.572 UTC [chaincode] LaunchConfig -> DEBU 0e2[0m launchConfig: executable:"chaincode",Args:[chaincode,-peer.address=peer0.org4.example.com:7052],Envs:[CORE_CHAINCODE_LOGGING_LEVEL=info,CORE_CHAINCODE_LOGGING_SHIM=warning,CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message},CORE_CHAINCODE_ID_NAME=qscc:1.2.1,CORE_PEER_TLS_ENABLED=true,CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key,CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt,CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt],Files:[/etc/hyperledger/fabric/client.crt /etc/hyperledger/fabric/client.key /etc/hyperledger/fabric/peer.crt]
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Start -> DEBU 0e3[0m start container: qscc:1.2.1
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Start -> DEBU 0e4[0m start container with args: chaincode -peer.address=peer0.org4.example.com:7052
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Start -> DEBU 0e5[0m start container with env:
+	CORE_CHAINCODE_LOGGING_LEVEL=info
+	CORE_CHAINCODE_LOGGING_SHIM=warning
+	CORE_CHAINCODE_LOGGING_FORMAT=%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message}
+	CORE_CHAINCODE_ID_NAME=qscc:1.2.1
+	CORE_PEER_TLS_ENABLED=true
+	CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key
+	CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt
+	CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt
+[36m2019-09-26 20:59:53.572 UTC [container] lockContainer -> DEBU 0e6[0m waiting for container(qscc-1.2.1) lock
+[36m2019-09-26 20:59:53.572 UTC [container] lockContainer -> DEBU 0e7[0m got container (qscc-1.2.1) lock
+[36m2019-09-26 20:59:53.572 UTC [inproccontroller] getInstance -> DEBU 0e8[0m chaincode instance created for qscc-1.2.1
+[36m2019-09-26 20:59:53.572 UTC [container] unlockContainer -> DEBU 0e9[0m container lock deleted(qscc-1.2.1)
+[36m2019-09-26 20:59:53.572 UTC [inproccontroller] func2 -> DEBU 0ea[0m chaincode-support started for  qscc-1.2.1
+[36m2019-09-26 20:59:53.572 UTC [chaincode] HandleChaincodeStream -> DEBU 0eb[0m Current context deadline = 0001-01-01 00:00:00 +0000 UTC, ok = false
+[36m2019-09-26 20:59:53.572 UTC [inproccontroller] func1 -> DEBU 0ec[0m chaincode started for qscc-1.2.1
+[36m2019-09-26 20:59:53.572 UTC [shim] StartInProc -> DEBU 0ed[0m in proc [chaincode -peer.address=peer0.org4.example.com:7052]
+[36m2019-09-26 20:59:53.572 UTC [shim] StartInProc -> DEBU 0ee[0m starting chat with peer using name=qscc:1.2.1
+[36m2019-09-26 20:59:53.572 UTC [shim] chatWithPeer -> DEBU 0ef[0m Registering.. sending REGISTER
+[36m2019-09-26 20:59:53.572 UTC [chaincode] handleMessage -> DEBU 0f0[0m [] Fabric side handling ChaincodeMessage of type: REGISTER in state created
+[36m2019-09-26 20:59:53.572 UTC [chaincode] HandleRegister -> DEBU 0f1[0m Received REGISTER in state created
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Register -> DEBU 0f2[0m registered handler complete for chaincode qscc:1.2.1
+[36m2019-09-26 20:59:53.572 UTC [chaincode] HandleRegister -> DEBU 0f3[0m Got REGISTER for chaincodeID = name:"qscc:1.2.1" , sending back REGISTERED
+[36m2019-09-26 20:59:53.572 UTC [chaincode] HandleRegister -> DEBU 0f4[0m Changed state to established for name:"qscc:1.2.1" 
+[36m2019-09-26 20:59:53.572 UTC [chaincode] sendReady -> DEBU 0f5[0m sending READY for chaincode name:"qscc:1.2.1" 
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 0f6[0m []Received message REGISTERED from peer
+[36m2019-09-26 20:59:53.572 UTC [shim] handleMessage -> DEBU 0f7[0m [] Handling ChaincodeMessage of type: REGISTERED(state:created)
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 0f8[0m []Received message READY from peer
+[36m2019-09-26 20:59:53.572 UTC [shim] handleMessage -> DEBU 0f9[0m [] Handling ChaincodeMessage of type: READY(state:established)
+[36m2019-09-26 20:59:53.572 UTC [chaincode] sendReady -> DEBU 0fa[0m Changed to state ready for chaincode name:"qscc:1.2.1" 
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Launch -> DEBU 0fb[0m launch complete
+[36m2019-09-26 20:59:53.572 UTC [chaincode] execute -> DEBU 0fc[0m canonical name: qscc:1.2.1
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Execute -> DEBU 0fd[0m Entry
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 0fe[0m [cf268016]Received message INIT from peer
+[36m2019-09-26 20:59:53.572 UTC [shim] handleMessage -> DEBU 0ff[0m [cf268016] Handling ChaincodeMessage of type: INIT(state:ready)
+[36m2019-09-26 20:59:53.572 UTC [shim] handleReady -> DEBU 100[0m [cf268016] Received INIT, initializing chaincode
+2019-09-26 20:59:53.572 UTC [qscc] Init -> INFO 101[0m Init QSCC
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 102[0m [cf268016] Init get response status: 200
+[36m2019-09-26 20:59:53.572 UTC [shim] func1 -> DEBU 103[0m [cf268016] Init succeeded. Sending COMPLETED
+[36m2019-09-26 20:59:53.572 UTC [shim] triggerNextState -> DEBU 104[0m [cf268016] send state message COMPLETED
+[36m2019-09-26 20:59:53.572 UTC [chaincode] handleMessage -> DEBU 105[0m [cf268016] Fabric side handling ChaincodeMessage of type: COMPLETED in state ready
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Notify -> DEBU 106[0m [cf268016] notifying Txid:cf268016-d706-48fe-ad67-c5f36ab78abb, channelID:
+[36m2019-09-26 20:59:53.572 UTC [chaincode] Execute -> DEBU 107[0m Exit
+2019-09-26 20:59:53.572 UTC [sccapi] deploySysCC -> INFO 108[0m system chaincode qscc/(github.com/hyperledger/fabric/core/scc/qscc) deployed
+2019-09-26 20:59:53.572 UTC [nodeCmd] serve -> INFO 109[0m Deployed system chaincodes
+[36m2019-09-26 20:59:53.573 UTC [discovery/lifecycle] InstalledCCs -> DEBU 10a[0m Returning []
+2019-09-26 20:59:53.573 UTC [discovery] NewService -> INFO 10b[0m Created with config TLS: true, authCacheMaxSize: 1000, authCachePurgeRatio: 0.750000
+2019-09-26 20:59:53.573 UTC [nodeCmd] registerDiscoveryService -> INFO 10c[0m Discovery service activated
+2019-09-26 20:59:53.573 UTC [nodeCmd] serve -> INFO 10d[0m Starting peer with ID=[name:"peer0.org4.example.com" ], network ID=[dev], address=[peer0.org4.example.com:7051]
+2019-09-26 20:59:53.574 UTC [nodeCmd] serve -> INFO 10e[0m Started peer with ID=[name:"peer0.org4.example.com" ], network ID=[dev], address=[peer0.org4.example.com:7051]
+[36m2019-09-26 20:59:58.570 UTC [gossip/discovery] periodicalSendAlive -> DEBU 10f[0m Sleeping 5s
+[36m2019-09-26 21:00:03.570 UTC [gossip/discovery] periodicalSendAlive -> DEBU 110[0m Sleeping 5s
+[36m2019-09-26 21:00:08.572 UTC [gossip/discovery] periodicalSendAlive -> DEBU 111[0m Sleeping 5s
+[36m2019-09-26 21:00:13.574 UTC [gossip/discovery] periodicalSendAlive -> DEBU 112[0m Sleeping 5s
+[36m2019-09-26 21:00:18.570 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 113[0m Sleeping 25s
+[36m2019-09-26 21:00:18.576 UTC [gossip/discovery] periodicalSendAlive -> DEBU 114[0m Sleeping 5s
+[36m2019-09-26 21:00:23.578 UTC [gossip/discovery] periodicalSendAlive -> DEBU 115[0m Sleeping 5s
+[36m2019-09-26 21:00:28.579 UTC [gossip/discovery] periodicalSendAlive -> DEBU 116[0m Sleeping 5s
+[36m2019-09-26 21:00:33.585 UTC [gossip/discovery] periodicalSendAlive -> DEBU 117[0m Sleeping 5s
+[36m2019-09-26 21:00:38.587 UTC [gossip/discovery] periodicalSendAlive -> DEBU 118[0m Sleeping 5s
+[36m2019-09-26 21:00:43.572 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 119[0m Sleeping 25s
+[36m2019-09-26 21:00:43.588 UTC [gossip/discovery] periodicalSendAlive -> DEBU 11a[0m Sleeping 5s
+[36m2019-09-26 21:00:48.590 UTC [gossip/discovery] periodicalSendAlive -> DEBU 11b[0m Sleeping 5s
+[36m2019-09-26 21:00:53.591 UTC [gossip/discovery] periodicalSendAlive -> DEBU 11c[0m Sleeping 5s
+[36m2019-09-26 21:00:58.592 UTC [gossip/discovery] periodicalSendAlive -> DEBU 11d[0m Sleeping 5s
+[36m2019-09-26 21:01:03.593 UTC [gossip/discovery] periodicalSendAlive -> DEBU 11e[0m Sleeping 5s
+[36m2019-09-26 21:01:08.575 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 11f[0m Sleeping 25s
+[36m2019-09-26 21:01:08.594 UTC [gossip/discovery] periodicalSendAlive -> DEBU 120[0m Sleeping 5s
+[36m2019-09-26 21:01:13.596 UTC [gossip/discovery] periodicalSendAlive -> DEBU 121[0m Sleeping 5s
+[36m2019-09-26 21:01:18.599 UTC [gossip/discovery] periodicalSendAlive -> DEBU 122[0m Sleeping 5s
+[36m2019-09-26 21:01:23.600 UTC [gossip/discovery] periodicalSendAlive -> DEBU 123[0m Sleeping 5s
+[36m2019-09-26 21:01:28.602 UTC [gossip/discovery] periodicalSendAlive -> DEBU 124[0m Sleeping 5s
+[36m2019-09-26 21:01:33.576 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 125[0m Sleeping 25s
+[36m2019-09-26 21:01:33.603 UTC [gossip/discovery] periodicalSendAlive -> DEBU 126[0m Sleeping 5s
+[36m2019-09-26 21:01:38.604 UTC [gossip/discovery] periodicalSendAlive -> DEBU 127[0m Sleeping 5s
+[36m2019-09-26 21:01:43.607 UTC [gossip/discovery] periodicalSendAlive -> DEBU 128[0m Sleeping 5s
+[36m2019-09-26 21:01:48.608 UTC [gossip/discovery] periodicalSendAlive -> DEBU 129[0m Sleeping 5s
+[36m2019-09-26 21:01:53.609 UTC [gossip/discovery] periodicalSendAlive -> DEBU 12a[0m Sleeping 5s
+[36m2019-09-26 21:01:58.580 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 12b[0m Sleeping 25s
+[36m2019-09-26 21:01:58.610 UTC [gossip/discovery] periodicalSendAlive -> DEBU 12c[0m Sleeping 5s
+[36m2019-09-26 21:02:03.611 UTC [gossip/discovery] periodicalSendAlive -> DEBU 12d[0m Sleeping 5s
+[36m2019-09-26 21:02:08.612 UTC [gossip/discovery] periodicalSendAlive -> DEBU 12e[0m Sleeping 5s
+[36m2019-09-26 21:02:13.613 UTC [gossip/discovery] periodicalSendAlive -> DEBU 12f[0m Sleeping 5s
+[36m2019-09-26 21:02:18.615 UTC [gossip/discovery] periodicalSendAlive -> DEBU 130[0m Sleeping 5s
+[36m2019-09-26 21:02:23.581 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 131[0m Sleeping 25s
+[36m2019-09-26 21:02:23.617 UTC [gossip/discovery] periodicalSendAlive -> DEBU 132[0m Sleeping 5s
+[36m2019-09-26 21:02:28.619 UTC [gossip/discovery] periodicalSendAlive -> DEBU 133[0m Sleeping 5s
+[36m2019-09-26 21:02:33.620 UTC [gossip/discovery] periodicalSendAlive -> DEBU 134[0m Sleeping 5s
+[36m2019-09-26 21:02:38.622 UTC [gossip/discovery] periodicalSendAlive -> DEBU 135[0m Sleeping 5s
+[36m2019-09-26 21:02:43.622 UTC [gossip/discovery] periodicalSendAlive -> DEBU 136[0m Sleeping 5s
+[36m2019-09-26 21:02:48.582 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 137[0m Sleeping 25s
+[36m2019-09-26 21:02:48.623 UTC [gossip/discovery] periodicalSendAlive -> DEBU 138[0m Sleeping 5s
+[36m2019-09-26 21:02:53.625 UTC [gossip/discovery] periodicalSendAlive -> DEBU 139[0m Sleeping 5s
+[36m2019-09-26 21:02:58.627 UTC [gossip/discovery] periodicalSendAlive -> DEBU 13a[0m Sleeping 5s
+[36m2019-09-26 21:03:03.629 UTC [gossip/discovery] periodicalSendAlive -> DEBU 13b[0m Sleeping 5s
+[36m2019-09-26 21:03:08.629 UTC [gossip/discovery] periodicalSendAlive -> DEBU 13c[0m Sleeping 5s
+[36m2019-09-26 21:03:13.587 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 13d[0m Sleeping 25s
+[36m2019-09-26 21:03:13.631 UTC [gossip/discovery] periodicalSendAlive -> DEBU 13e[0m Sleeping 5s
+[36m2019-09-26 21:03:18.632 UTC [gossip/discovery] periodicalSendAlive -> DEBU 13f[0m Sleeping 5s
+[36m2019-09-26 21:03:23.633 UTC [gossip/discovery] periodicalSendAlive -> DEBU 140[0m Sleeping 5s
+[36m2019-09-26 21:03:28.634 UTC [gossip/discovery] periodicalSendAlive -> DEBU 141[0m Sleeping 5s
+[36m2019-09-26 21:03:33.636 UTC [gossip/discovery] periodicalSendAlive -> DEBU 142[0m Sleeping 5s
+[36m2019-09-26 21:03:38.588 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 143[0m Sleeping 25s
+[36m2019-09-26 21:03:38.639 UTC [gossip/discovery] periodicalSendAlive -> DEBU 144[0m Sleeping 5s
+[36m2019-09-26 21:03:43.639 UTC [gossip/discovery] periodicalSendAlive -> DEBU 145[0m Sleeping 5s
+[36m2019-09-26 21:03:48.641 UTC [gossip/discovery] periodicalSendAlive -> DEBU 146[0m Sleeping 5s
+[36m2019-09-26 21:03:53.646 UTC [gossip/discovery] periodicalSendAlive -> DEBU 147[0m Sleeping 5s
+[36m2019-09-26 21:03:58.647 UTC [gossip/discovery] periodicalSendAlive -> DEBU 148[0m Sleeping 5s
+[36m2019-09-26 21:04:03.590 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 149[0m Sleeping 25s
+[36m2019-09-26 21:04:03.648 UTC [gossip/discovery] periodicalSendAlive -> DEBU 14a[0m Sleeping 5s
+[36m2019-09-26 21:04:08.650 UTC [gossip/discovery] periodicalSendAlive -> DEBU 14b[0m Sleeping 5s
+[36m2019-09-26 21:04:13.651 UTC [gossip/discovery] periodicalSendAlive -> DEBU 14c[0m Sleeping 5s
+[36m2019-09-26 21:04:18.652 UTC [gossip/discovery] periodicalSendAlive -> DEBU 14d[0m Sleeping 5s
+[36m2019-09-26 21:04:23.655 UTC [gossip/discovery] periodicalSendAlive -> DEBU 14e[0m Sleeping 5s
+[36m2019-09-26 21:04:28.591 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 14f[0m Sleeping 25s
+[36m2019-09-26 21:04:28.656 UTC [gossip/discovery] periodicalSendAlive -> DEBU 150[0m Sleeping 5s
+[36m2019-09-26 21:04:33.657 UTC [gossip/discovery] periodicalSendAlive -> DEBU 151[0m Sleeping 5s
+[36m2019-09-26 21:04:38.658 UTC [gossip/discovery] periodicalSendAlive -> DEBU 152[0m Sleeping 5s
+[36m2019-09-26 21:04:43.661 UTC [gossip/discovery] periodicalSendAlive -> DEBU 153[0m Sleeping 5s
+[36m2019-09-26 21:04:48.662 UTC [gossip/discovery] periodicalSendAlive -> DEBU 154[0m Sleeping 5s
+[36m2019-09-26 21:04:53.593 UTC [gossip/discovery] periodicalReconnectToDead -> DEBU 155[0m Sleeping 25s
+[36m2019-09-26 21:04:53.664 UTC [gossip/discovery] periodicalSendAlive -> DEBU 156[0m Sleeping 5s
